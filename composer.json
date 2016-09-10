@@ -1,0 +1,25 @@
+{
+    "name": "jonbaldie/cache-machine",
+    "description": "PHP callable caching",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Baldie",
+            "email": "jon@jonbaldie.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/cache": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CacheMachine\\": "src/CacheMachine"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
